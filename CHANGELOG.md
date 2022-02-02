@@ -7,6 +7,8 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Added
 
 ### Changed
+- Bloom filter optimization now considers `import` module file names, thus
+  speeding up matching of patterns like `import { $X } from 'foo'`
 
 ### Fixed
 
